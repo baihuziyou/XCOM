@@ -400,13 +400,13 @@ namespace XCOM
         public void MainWind_CloseClick(object o, EventArgs e)
         {
             #region//把用户的配置保存一下
-            //dataSaveList.Add(ComBox_XCOMChioce.Text);
-            //dataSaveList.Add(ComBox_BoadRate.Text);
-            //dataSaveList.Add(ComBox_StopBits.Text);
-            //dataSaveList.Add(ComBox_DataBits.Text);
-            //dataSaveList.Add(ComBox_Parity.Text);
-            //dataSaveList.Add((string)Button_OpenXCOM.Content);
-            //File.WriteAllLines("save.txt", dataSaveList);//写入save.txt文件中，没有会自动创建的
+            dataSaveList.Add(ComBox_XCOMChioce.Text);
+            dataSaveList.Add(ComBox_BoadRate.Text);
+            dataSaveList.Add(ComBox_StopBits.Text);
+            dataSaveList.Add(ComBox_DataBits.Text);
+            dataSaveList.Add(ComBox_Parity.Text);
+            dataSaveList.Add((string)Button_OpenXCOM.Content);
+            File.WriteAllLines("save.txt", dataSaveList);//写入save.txt文件中，没有会自动创建的
             #endregion
         }
 
