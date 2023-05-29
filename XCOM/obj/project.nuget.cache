@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "TePkl3zSR9vmzLFnaIrEtEl8K5ktMAYC9DnsQgcWSvWjqDUS7vPXTPfBYefld/+pqwNLEnRCMHbTQc43TxrDeA==",
+  "success": true,
+  "projectFilePath": "E:\\C#\\XCOM\\XCOM\\XCOM\\XCOM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\123456\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+    "C:\\Users\\123456\\.nuget\\packages\\microsoft.win32.registry\\4.6.0\\microsoft.win32.registry.4.6.0.nupkg.sha512",
+    "C:\\Users\\123456\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\4.6.0-rc2.19462.14\\runtime.linux-arm.runtime.native.system.io.ports.4.6.0-rc2.19462.14.nupkg.sha512",
+    "C:\\Users\\123456\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\4.6.0-rc2.19462.14\\runtime.linux-arm64.runtime.native.system.io.ports.4.6.0-rc2.19462.14.nupkg.sha512",
+    "C:\\Users\\123456\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\4.6.0-rc2.19462.14\\runtime.linux-x64.runtime.native.system.io.ports.4.6.0-rc2.19462.14.nupkg.sha512",
+    "C:\\Users\\123456\\.nuget\\packages\\runtime.native.system.io.ports\\4.6.0\\runtime.native.system.io.ports.4.6.0.nupkg.sha512",
+    "C:\\Users\\123456\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\4.6.0-rc2.19462.14\\runtime.osx-x64.runtime.native.system.io.ports.4.6.0-rc2.19462.14.nupkg.sha512",
+    "C:\\Users\\123456\\.nuget\\packages\\system.io.ports\\4.6.0\\system.io.ports.4.6.0.nupkg.sha512",
+    "C:\\Users\\123456\\.nuget\\packages\\system.security.accesscontrol\\4.6.0\\system.security.accesscontrol.4.6.0.nupkg.sha512",
+    "C:\\Users\\123456\\.nuget\\packages\\system.security.principal.windows\\4.6.0\\system.security.principal.windows.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

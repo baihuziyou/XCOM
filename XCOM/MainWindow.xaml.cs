@@ -379,7 +379,7 @@ namespace XCOM
         public void ReceiveData(object o, SerialDataReceivedEventArgs e)
         {
             Display display = new Display(scrollDisplay);
-            Dispatcher.Invoke(display);//这里是副线程无法访问主线程的ScrollViewer_DispalyWindow字段，所以要这样访问,invoke中它的参数要是委托，所以定义一个
+            Dispatcher.Invoke(display);//这里是副线程无法访问主线程的ScrollViewer_DispalyWindow字段，所以要这样访问,invoke中它的参数，所以定义一个
             //Dispatcher.Invoke(() => { ScrollViewer_DispalyWindow.Content += Convert.ToString(mySerialPort.ReadByte()); });拉姆达表达式
         }
 
@@ -400,13 +400,13 @@ namespace XCOM
         public void MainWind_CloseClick(object o, EventArgs e)
         {
             #region//把用户的配置保存一下
-            dataSaveList.Add(ComBox_XCOMChioce.Text);
-            dataSaveList.Add(ComBox_BoadRate.Text);
-            dataSaveList.Add(ComBox_StopBits.Text);
-            dataSaveList.Add(ComBox_DataBits.Text);
-            dataSaveList.Add(ComBox_Parity.Text);
-            dataSaveList.Add((string)Button_OpenXCOM.Content);
-            File.WriteAllLines("save.txt", dataSaveList);//写入save.txt文件中，没有会自动创建的
+            //dataSaveList.Add(ComBox_XCOMChioce.Text);
+            //dataSaveList.Add(ComBox_BoadRate.Text);
+            //dataSaveList.Add(ComBox_StopBits.Text);
+            //dataSaveList.Add(ComBox_DataBits.Text);
+            //dataSaveList.Add(ComBox_Parity.Text);
+            //dataSaveList.Add((string)Button_OpenXCOM.Content);
+            //File.WriteAllLines("save.txt", dataSaveList);//写入save.txt文件中，没有会自动创建的
             #endregion
         }
 

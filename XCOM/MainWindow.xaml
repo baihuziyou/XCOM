@@ -32,7 +32,7 @@
 
         <TabControl Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
             <TabItem Header="单条发送" FontSize="16">
-                <TextBox Text="1" Name="TextBox_SendData"></TextBox>
+                <TextBox Name="TextBox_SendData"/>
             </TabItem> 
             <TabItem Header="帮助文档" FontSize="16">
                 <TextBox Text="有问题请联系1031512314@qq.com" IsReadOnly="True"></TextBox>

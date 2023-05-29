@@ -1,20 +1,20 @@
 ﻿XCOM
-
+1.0.0.0
 
 winexe
 C#
 .cs
-F:\c#\XCOM\XCOM\obj\Debug\netcoreapp3.0\
+E:\C#\XCOM\XCOM\XCOM\obj\Debug\netcoreapp3.0\
 XCOM
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_0
-F:\c#\XCOM\XCOM\App.xaml
-11151548125
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_0;
+E:\C#\XCOM\XCOM\XCOM\App.xaml
+11407045341
 
-383119192
-193-694049257
+4306463384
+193701692994
 MainWindow.xaml;
 
-False
+True
 
