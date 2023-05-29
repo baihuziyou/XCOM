@@ -4,7 +4,7 @@ F:\新建文件夹\XCOM-master\XCOM\bin\Debug\netcoreapp3.0\XCOM.exe
 即可使用。  （注：F:\新建文件夹为我存放该资源的位置，大家根据自己下载的位置相应的打开即可）使用的开发环境为visual studio 2019
 
 注意：
-  这个程序是基于.net core编写的，运行之前要先下载.net core 安装
+  这个程序是基于.net core 7.0编写的，运行之前要先下载.net core 7.0安装。
    1. 检查自己是否安装了.net core以及查看.net core版本的方法
       （1）打开命令提示符即 点击“开始”，输入“cmd”，点击“命令提示符”即可
       （2）输入 dotnet --version 
